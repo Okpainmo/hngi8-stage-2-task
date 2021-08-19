@@ -1,0 +1,10 @@
+@media screen and (max-width: 400px) {
+  .text-section {
+    padding: 40px 30px 20px;
+  }
+  .screen {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  min-height: 100vh;
+}
+
+.text-section {
+  width: 100%;
+  padding: 100px 30px 20px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.text-section span {
+  color: purple;
+  font-weight: bold;
+}
+
+.print-button-section {
+  width: 100%;
+  text-align: center;
+}
+
+.print-button-section button {
+  background-color: purple;
+  font-size: 18px;
+  color: white;
+  border-radius: 7px;
+  border: 0;
+  cursor: pointer;
+  padding: 15px 40px;
+}
+
+.screen-section {
+  width: 100%;
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.screen {
+  width: 60%;
+  margin: 30px auto;
+  padding: 10px 20px;
+  color: grey;
+  border-bottom: 1px solid black;
+}
+
+.screen .name-case-hidden {
+  display: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-name-in {
+  animation-name: fade-in;
+  animation-duration: 0.75s;
+  display: block;
+}

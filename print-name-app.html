@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Print-name App</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- App style -->
+    <link rel="stylesheet" href="./Style/print-name-app.css" />
+
+    <!-- App media query -->
+    <link rel="stylesheet" href="./Style/PNA-media-queries.css" />
+  </head>
+  <body>
+    <main>
+      <section class="text-section">
+        Hi, welcome to <span>PNA</span>. <br />
+        <span>PNA</span> (stands for Print-Name App)
+        <br />
+        it is a simple app that prints my name.
+        <br />
+        click the button below to print my name.
+      </section>
+      <section class="print-button-section">
+        <button id="print-button">print my name</button>
+      </section>
+      <section class="screen-section">
+        <span>My name is</span>
+        <div class="screen">
+          <span class="name-case-hidden">Andrew James Okpainmo</span>
+        </div>
+      </section>
+    </main>
+
+    <script src="./Scripts/print-name-app.js"></script>
+  </body>
+</html>
