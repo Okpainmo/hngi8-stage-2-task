@@ -78,6 +78,10 @@
   .socials-case {
     width: 200px;
   }
+  .intro-text-bold {
+    font-size: 27px;
+    padding-top: 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
