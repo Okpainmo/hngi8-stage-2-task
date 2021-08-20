@@ -75,6 +75,9 @@
     width: 200px;
     height: 50px;
   }
+  .socials-case {
+    width: 270px;
+  }
 }
 
 @media screen and (max-width: 400px) {

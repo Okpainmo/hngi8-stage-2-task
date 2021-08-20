@@ -6,7 +6,7 @@ This task promotes me to stage 3 by God's grace....
 ## Repo details
 
 This repository contains two projects - my application resume and PNA(print-name app).
-PNA is a simple app that prints my name.
+PNA is a simple app that prints my name. The link to the app can be found in the resume website.
 
 ## Repo stack
 
