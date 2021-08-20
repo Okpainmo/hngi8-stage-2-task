@@ -26,6 +26,7 @@ nav {
 .applicant-intro {
   width: 100%;
   min-height: 300px;
+  overflow: auto;
   padding: 0 100px 30px;
   display: flex;
   justify-content: space-between;
