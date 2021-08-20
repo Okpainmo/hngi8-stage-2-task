@@ -1,0 +1,85 @@
+@media screen and (max-width: 1100px) {
+  .applicant-intro {
+    flex-direction: column-reverse;
+  }
+  .applicant-intro-text {
+    width: 100%;
+    text-align: center;
+  }
+  .applicant-photo-case {
+    width: 100%;
+  }
+  .applicant-photo-case::after {
+    top: 275px;
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .resume-array {
+    flex-direction: column;
+  }
+  .resume-array-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact-case {
+    flex-direction: column;
+  }
+  .contact-case-item {
+    width: 100%;
+  }
+  .internship-sponsors {
+    flex-direction: column;
+  }
+  .internship-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .applicant-photo {
+    margin: 100px auto 30px;
+  }
+  .intro-buttons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .intro-buttons a {
+    margin: 0 auto 20px;
+  }
+  .more-text {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  nav {
+    padding: 10px;
+  }
+  .applicant-intro {
+    padding: 0 10px 30px;
+  }
+  .applicant-photo {
+    margin: 70px auto 30px;
+  }
+  .contact-case {
+    width: 100%;
+  }
+  .resume-array {
+    padding: 30px 10px;
+  }
+  .internship-item img {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .applicant-photo {
+    width: 250px;
+    height: 280px;
+  }
+}
